@@ -1,13 +1,13 @@
 # jobe
 A Dockerised Jobe Server
 
-# Run
+## Run
 
 To run a new docker container containing the Jobe server type the following:
 
 `docker run -d -p 4000:80 --name jobe jeanpetric/jobe:1.5.0`
 
-# Test
+## Test
 
 To start with, make sure the server can be accessed and it lists all languages it supports:
 
@@ -19,7 +19,7 @@ You should get something down the line:
 
 These are the default languages installed with Jobe server. If you want a specific one fire a request.
 
-# NB
+## NB
 
 This is a very basic installation of Jobe server - just to get you going (i.e. no firewall is setup)!
 
